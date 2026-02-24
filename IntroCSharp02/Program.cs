@@ -1,6 +1,6 @@
 ﻿using System;
-using doubleroCSharp02;
-using IntroCSharp02.Exercicios;
+using IntroCSharp02.Exemplos;
+using IntroCSharp02.introducaoCsharp;
 
 namespace IntroCSharp02
 {
@@ -8,10 +8,7 @@ namespace IntroCSharp02
     {
         public static void Main(string[] args)
         {
-            //Aula01.Executar();
-            //Aula02.Executar();
-            //Ex01.Executar();
-            Exemplo03.Executar();
+            ExemploCondicional02.Executar();
         }
     }
 }

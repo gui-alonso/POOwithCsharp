@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IntroCSharp02
+namespace IntroCSharp02.introducaoCsharp
 {
     public class Aula01
     {
