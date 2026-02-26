@@ -8,7 +8,13 @@ namespace IntroCSharp02
     {
         public static void Main(string[] args)
         {
-            CalculadoraDesconto.Executar();
+            //CalculadoraDesconto.Executar();
+            //Contagem.Executar();
+            //ListaAlunos.Executar();
+            //CalculoSimples.Executar();
+            //TiposNumericos.Executar();
+            //CaixaInterativo.Executar();
+            ValidacaoSimples.Executar();
         }
     }
 }
