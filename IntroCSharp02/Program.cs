@@ -8,7 +8,7 @@ namespace IntroCSharp02
     {
         public static void Main(string[] args)
         {
-            ExemploCondicional02.Executar();
+            CalculadoraDesconto.Executar();
         }
     }
 }
