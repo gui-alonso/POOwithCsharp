@@ -11,10 +11,10 @@ namespace IntroCSharp02.introducaoCsharp
         public static void Executar()
         {
             Console.Write("Digite o primeiro número: ");
-            double n1 = double.Parse(Console.ReadLine());
+            double n1 = double.Parse(Console.ReadLine()!);
 
             Console.Write("Digite o segundo número: ");
-            double n2 = double.Parse(Console.ReadLine());
+            double n2 = double.Parse(Console.ReadLine()!);
 
             double soma = n1 + n2;
             double sub = n1 - n2;

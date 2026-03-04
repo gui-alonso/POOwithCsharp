@@ -8,6 +8,7 @@ namespace IntroCSharp02
     {
         public static void Main(string[] args)
         {
+            Aula01.Executar();
             //CalculadoraDesconto.Executar();
             //Contagem.Executar();
             //ListaAlunos.Executar();
@@ -16,7 +17,7 @@ namespace IntroCSharp02
             //CaixaInterativo.Executar();
             //ValidacaoSimples.Executar();
             //Exemplos.Exemplo02.Executar();
-            ExemploCondicional02.Executar();
+            //ExemploCondicional02.Executar();
         }
     }
 }

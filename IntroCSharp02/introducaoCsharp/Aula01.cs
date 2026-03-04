@@ -10,7 +10,7 @@ namespace IntroCSharp02.introducaoCsharp
 
             //Console.WriteLine("Hello World!");
             Console.Write("Digite seu nome: ");
-            string nome = Console.ReadLine();
+            string nome = Console.ReadLine() ?? "";
 
             Console.Write("Digite sua idade: ");
             int idade = int.Parse(Console.ReadLine()!);

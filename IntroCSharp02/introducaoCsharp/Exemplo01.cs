@@ -21,7 +21,7 @@ namespace IntroCSharp02.introducaoCsharp
              * double.Parse("3.14") -> converte string para double
              */
             Console.Write("Digite sua idade: ");
-            int idade = int.Parse(Console.ReadLine());
+            int idade = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Você tem " + idade + " anos");
         }
