@@ -15,7 +15,8 @@ namespace IntroCSharp02
             //TiposNumericos.Executar();
             //CaixaInterativo.Executar();
             //ValidacaoSimples.Executar();
-            Exemplos.Exemplo02.Executar();
+            //Exemplos.Exemplo02.Executar();
+            ExemploCondicional02.Executar();
         }
     }
 }

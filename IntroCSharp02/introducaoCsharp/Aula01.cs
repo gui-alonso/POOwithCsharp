@@ -13,9 +13,9 @@ namespace IntroCSharp02.introducaoCsharp
             string nome = Console.ReadLine();
 
             Console.Write("Digite sua idade: ");
-            int idade = int.Parse(Console.ReadLine());
+            int idade = int.Parse(Console.ReadLine()!);
 
-            Console.WriteLine("Meu nome é: " + nome + "e tenho " + idade + " anos.");
+            Console.WriteLine("Meu nome é: " + nome + " e tenho " + idade + " anos.");
         }
     }
 }
