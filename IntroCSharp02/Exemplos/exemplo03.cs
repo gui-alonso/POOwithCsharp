@@ -8,7 +8,7 @@ namespace IntroCSharp02.Exemplos
         {
             Console.WriteLine("========== ESTRUTURA CONDICIONAL ==============");
             Console.Write("Digite sua idade: ");
-            int idade = int.Parse(Console.ReadLine());
+            int idade = int.Parse(Console.ReadLine()!);
 
             if (idade < 12)
             {

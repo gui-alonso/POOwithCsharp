@@ -14,7 +14,8 @@ namespace IntroCSharp02
             //CalculoSimples.Executar();
             //TiposNumericos.Executar();
             //CaixaInterativo.Executar();
-            ValidacaoSimples.Executar();
+            //ValidacaoSimples.Executar();
+            Exemplos.Exemplo02.Executar();
         }
     }
 }

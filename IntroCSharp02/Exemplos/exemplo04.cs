@@ -10,10 +10,10 @@ namespace IntroCSharp02.Exemplos
             Console.WriteLine("====== CALCULADORA SIMPLES COM MENU =======");
             Console.WriteLine("===========================================");
             Console.Write("Digite o primeiro número: ");
-            double n1 = double.Parse(Console.ReadLine());
+            double n1 = double.Parse(Console.ReadLine()!);
 
             Console.Write("Digite o segundo número: ");
-            double n2 = double.Parse(Console.ReadLine());
+            double n2 = double.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Escolha a operação:");
             Console.WriteLine("1 - Soma");
@@ -21,7 +21,7 @@ namespace IntroCSharp02.Exemplos
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão");
 
-            int opcao = int.Parse(Console.ReadLine());
+            int opcao = int.Parse(Console.ReadLine()!);
 
             if (opcao == 1)
             {
