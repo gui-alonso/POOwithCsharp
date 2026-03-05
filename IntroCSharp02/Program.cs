@@ -18,7 +18,7 @@ namespace IntroCSharp02
             //ValidacaoSimples.Executar();
             //Exemplos.Exemplo02.Executar();
             //ExemploCondicional02.Executar();
-            ExemploForeach02.Executar();
+            ExemploForeach04.Executar();
         }
     }
 }
